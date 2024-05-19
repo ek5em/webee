@@ -75,3 +75,17 @@ body {
 .cursor-pointer {
     cursor: pointer;
 }
+
+.map-container {
+    height: 70vh;
+}
+
+#map {
+    height: 100%;
+}
+
+#map > yamaps {
+    width: 100% !important; 
+}
+
+
