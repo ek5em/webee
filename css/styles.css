@@ -1,0 +1,74 @@
+body {
+    background-color: var(--bg);
+    color: var(--black);
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.pt-6 {
+    padding-top: 3.5rem !important;
+}
+
+.py-5 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+.p-5 {
+    padding: 2rem !important;
+}
+
+.px-5 {
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+}
+
+.pb-5 {
+    padding-bottom: 2rem !important;
+}
+
+.gap-5 {
+    gap: 2rem !important;
+}
+
+.fs-55 {
+    font-size: 1.125rem;
+}
+
+.fw-500 {
+    font-weight: 500 !important;
+}
+
+.c-second {
+    color: var(--second-tx) !important;
+}
+
+.c-black {
+    color: var(--black) !important;
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.no-resize {
+    resize: none;
+}
+
+.blockquote {
+    border-left: 2px solid var(--grey);
+    font-size: 0.875rem;
+}
+
+.bg-danger {
+    background-color: var(--danger) !important;
+}
+
+.bg-success {
+    background-color: var(--success) !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
