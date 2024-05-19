@@ -37,7 +37,7 @@ const renderActivity = () => {
                         commented:</span
                     >
                 </div>
-                <blockquote class="blockquote m-0 mt-4 px-2">
+                <blockquote class="blockquote fs-7 m-0 mt-4 px-2">
                     Don't sit and wait. Get out there, feel
                     life. Touch the sun, and immerse in the sea.
                     Keep love in your heart. A life without it
@@ -268,7 +268,7 @@ const renderActivity = () => {
             <div
                 class="d-flex justify-content-between align-items-center px-3"
             >
-                <h6 class="m-0 fw-500">Navigation</h6>
+                <h6 class="m-0 fs-7">Navigation</h6>
                 <svg
                     class="cursor-pointer"
                     width="12"
@@ -373,11 +373,11 @@ const renderActivity = () => {
                     Connections
                 </div>
                 <div>
-                    <div
-                        class="badge rounded-pill bg-danger fw-normal"
+                    <span
+                        class="badge rounded-pill bg-danger fw-normal lh-sm"
                     >
                         29
-                    </div>
+                    </span>
                 </div>
             </a>
             <a
@@ -444,7 +444,7 @@ const renderActivity = () => {
                 </div>
                 <div>
                     <div
-                        class="badge rounded-pill bg-success fw-normal"
+                        class="badge rounded-pill bg-success fw-normal lh-sm"
                     >
                         45
                     </div>
@@ -483,7 +483,7 @@ const renderActivity = () => {
             <div
                 class="d-flex justify-content-between p-3 border-bottom"
             >
-                <h6 class="m-0">Share your thoughts</h6>
+                <h6 class="m-0 fs-7">Share your thoughts</h6>
                 <svg
                     width="12"
                     height="8"

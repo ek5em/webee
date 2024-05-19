@@ -36,8 +36,8 @@ body {
     font-size: 1.125rem;
 }
 
-.fw-500 {
-    font-weight: 500 !important;
+.fs-7 {
+    font-size: 0.875rem;
 }
 
 .c-second {
@@ -48,17 +48,12 @@ body {
     color: var(--black) !important;
 }
 
-.bg-white {
-    background-color: var(--white);
-}
-
 .no-resize {
     resize: none;
 }
 
 .blockquote {
     border-left: 2px solid var(--grey);
-    font-size: 0.875rem;
 }
 
 .bg-danger {
@@ -67,6 +62,14 @@ body {
 
 .bg-success {
     background-color: var(--success) !important;
+}
+
+.bg-secondary {
+    background-color: var(--bg2) !important;
+}
+
+.bg-selected {
+    background-color: var(--bg) !important;
 }
 
 .cursor-pointer {
