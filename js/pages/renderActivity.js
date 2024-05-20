@@ -1,11 +1,11 @@
 const renderActivity = () => {
     const main = document.getElementById("main-content");
     main.innerHTML = `
-    <div class="row m-0">
+    <div class="d-flex flex-row gaprow-5 row m-0">
     <!-- Основной контент -->
-    <div class="d-flex gap-5 flex-column col-md-9 p-0 pe-3">
+    <div class="d-flex gap-5 flex-column col-md-9 p-0 pe-md-3">
         <!-- Большой пост -->
-        <div class="post px-5 pt-6 pb-5 bg-white">
+        <div class="post px-3 pt-5 pb-3 p-md-5 pt-md-6 bg-white">
             <img
                 src="assets/png/Sunset.png"
                 alt="Post image"
@@ -97,12 +97,12 @@ const renderActivity = () => {
 
         <!-- Дополнительные посты -->
         <div
-            class="d-flex justify-content-between px-5 bg-white fs-6"
+            class="d-flex justify-content-between px-3 px-md-5 bg-white fs-6"
         >
             <div class="d-flex align-items-center">
                 Sunset Sunset Sunset
             </div>
-            <div class="d-flex align-items-center py-3">
+            <div class="d-flex align-items-center py-2 py-md-3">
                 <svg
                     width="18"
                     height="18"
@@ -138,12 +138,12 @@ const renderActivity = () => {
             </div>
         </div>
         <div
-            class="d-flex justify-content-between px-5 bg-white fs-6"
+            class="d-flex justify-content-between px-3 px-md-5 bg-white fs-6"
         >
             <div class="d-flex align-items-center">
                 Morning of Siberia
             </div>
-            <div class="d-flex align-items-center py-3">
+            <div class="d-flex align-items-center py-2 py-md-3">
                 <svg
                     width="18"
                     height="18"
@@ -180,7 +180,7 @@ const renderActivity = () => {
         </div>
     </div>
     <!-- Сайдбар -->
-    <div class="d-flex gap-5 flex-column col-md-3 p-0 ps-3">
+    <div class="d-flex gap-5 flex-column col-md-3 p-0 ps-md-3">
         <!-- Профиль-->
         <div
             class="d-flex flex-column align-items-center gap-3 profile-card text-center bg-white py-5"

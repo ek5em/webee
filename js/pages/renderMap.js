@@ -1,7 +1,7 @@
 const renderMap = () => {
     const main = document.getElementById("main-content");
     main.innerHTML = `
-    <div class="bg-white px-5 pb-5">
+    <div class="bg-white px-3 px-md-5 pb-3 pb-md-5" >
     <div class="d-flex justify-content-between py-3">
         <div class="fs-6">Basic map</div>
         <div class="d-flex align-items-center gap-2">

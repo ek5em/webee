@@ -1,7 +1,7 @@
 const renderTimer = () => {
     const main = document.getElementById("main-content");
     main.innerHTML = `
-    <div class="d-flex gap-5 flex-column bg-white px-5 pt-3 pb-5 fs-normal">
+    <div class="d-flex gap-md-5 gap-3 flex-column bg-white px-3 px-md-5 pt-3 pb-3 pb-md-5 fs-normal">
     <div class="d-flex justify-content-between">
         <div class="fs-6 ">Timer</div>
         <div class="d-flex align-items-center gap-2">

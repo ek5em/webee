@@ -3,7 +3,7 @@ const renderHeader = () => {
     const header = document.createElement("header");
     header.innerHTML = `
     <nav
-    class="d-flex justify-content-between align-items-center navbar navbar-expand-sm p-0 bg-white px-5"
+    class="d-flex justify-content-between flex-column flex-md-row align-items-center navbar navbar-expand-sm p-0 bg-white px-2 px-md-5"
 >
     <a
         href="#"
@@ -26,7 +26,7 @@ const renderHeader = () => {
             User pages <span class="fw-normal">- Profile</span>
         </h6>
     </a>
-    <ul class="d-flex gap-5 navbar-nav py-2">
+    <ul class="d-flex gap-5 navbar-nav py-2 flex-row flex-wrap">
         <li class="nav-item">
             <a
                 href="#"
@@ -134,9 +134,9 @@ const renderHeader = () => {
     </ul>
 </nav>
 <nav
-    class="d-flex justify-content-between navbar navbar-expand-sm p-0 bg-secondary px-5 border-bottom border-top"
+    class="d-flex justify-content-between flex-column flex-md-row navbar navbar-expand-sm p-0 bg-secondary px-2 px-md-5 border-bottom border-top"
 >
-    <ul class="navbar-nav dynamic-nav">
+    <ul class="d-flex flex-row flex-wrap navbar-nav dynamic-nav">
         <li class="nav-item">
             <a
                 class="d-flex align-items-center text-decoration-none c-black px-3 py-2 gap-2"
@@ -226,7 +226,7 @@ const renderHeader = () => {
             </a>
         </li>
     </ul>
-    <ul class="navbar-nav">
+    <ul class="d-flex flex-row flex-wrap navbar-nav">
         <li class="nav-item">
             <a
                 href="#"
