@@ -76,15 +76,15 @@ const updateTimer = (time) => {
 };
 
 const initTimer = () => {
-     setInterval(() => {
+    setInterval(() => {
         timer.seconds++;
         if (timer.seconds >= 60) {
             timer.minutes++;
             timer.seconds = 0;
-            if (timer.minutes >= 60) {
-                timer.hours++;
-                timer.minutes = 0;
-            }
+        }
+        if (timer.minutes >= 60) {
+            timer.hours++;
+            timer.minutes = 0;
         }
         updateTimer(timer);
     }, 1000);
